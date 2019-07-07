@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Elastic Load Balancing</title>
+<title>EC2 ELB Demo</title>
 <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" title="default" />
 
 </head>
@@ -49,7 +49,7 @@
 				<br/>
 				<br/>
 				<h2>Hellow World! for ONICA</h2>
-				<h2>Instance Name: <?php echo $private-dns-name; ?></h2>
+				<h2>Instance Name: <?php echo $dns-name; ?></h2>
 				<h2>EC2 Instance ID: <?php echo $instance_id; ?></h2>
 				<h2>Zone: <?php echo  $zone; ?></h2>
 <!--

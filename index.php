@@ -15,11 +15,11 @@
 <div id="content">
 	<table border="0" width="50%" cellpadding="0" cellspacing="0" id="content-table">
 	<tr>
-		<th rowspan="3" class="sized"><img src="images/shared/side_shadowleft.jpg" width="20" height="300" alt="" /></th>
+		<th rowspan="3" class="sized"><img src="side_shadowleft.jpg" width="20" height="300" alt="" /></th>
 		<th class="topleft"></th>
 		<td id="tbl-border-top">&nbsp;</td>
 		<th class="topright"></th>
-		<th rowspan="3" class="sized"><img src="images/shared/side_shadowright.jpg" width="20" height="300" alt="" /></th>
+		<th rowspan="3" class="sized"><img src="side_shadowright.jpg" width="20" height="300" alt="" /></th>
 	</tr>
 	<tr>
 		<td id="tbl-border-left"></td>

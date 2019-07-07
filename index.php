@@ -48,7 +48,7 @@
 
 
 			<center>
-				<img src="images/donesh-picture.jpg" width="300"/>
+				<img src="donesh-picture.jpg" width="300"/>
 				<br/>
 				<br/>
 				<h2>Hellow World! for ONICA</h2>

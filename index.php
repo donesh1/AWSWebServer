@@ -51,7 +51,7 @@
 				<img src="donesh-picture.jpg" width="300"/>
 				<br/>
 				<br/>
-				<h2>Hello World! for ONICA -prepared by Donesh Bajaj</h2>
+				<h2>Hello World! for ONICA prepared by Donesh Bajaj</h2>
 				<h2>Instance Name: <?php echo $hostname; ?></h2>
 				<h2>EC2 Instance ID: <?php echo $instance_id; ?></h2>
 				<h2>Zone: <?php echo  $zone; ?></h2>

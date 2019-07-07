@@ -48,7 +48,7 @@
 				<img src="images/reinvent_mark_white.png" width="300"/>
 				<br/>
 				<br/>
-				<h2>Hellow World! for ONICA <?php echo $instance_id; ?></h2>
+				<h2>Hellow World! for ONICA</h2>
 				<h2>EC2 Instance ID: <?php echo $instance_id; ?></h2>
 				<h2>Zone: <?php echo  $zone; ?></h2>
 <!--

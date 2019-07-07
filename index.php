@@ -49,8 +49,7 @@
 				<br/>
 				<br/>
 				<h2>Hellow World! for ONICA</h2>
-				<h2>Instance Name: <?php echo $hostname; ?></h2>
-				<h2>Instance Name: <?php echo $privatednsname; ?></h2>
+				<h2>Instance Name: <?php echo $private-dns-name; ?></h2>
 				<h2>EC2 Instance ID: <?php echo $instance_id; ?></h2>
 				<h2>Zone: <?php echo  $zone; ?></h2>
 <!--

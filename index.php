@@ -35,8 +35,8 @@
   $url = "http://169.254.169.254/latest/meta-data/instance-id";
   $instance_id = file_get_contents($url);
   # Get the Private DNS from meta-data and store it in the $Private-dns-name variable
-  $url = "http://169.254.169.254/latest/meta-data/local-hostname";
-  $local-hostname = file_get_contents($url);
+  $url = "http://169.254.169.254/latest/meta-data/hostname";
+  $hostname = file_get_contents($url);
   # Get the instance's availability zone from metadata and store it in the $zone variable
   $url = "http://169.254.169.254/latest/meta-data/placement/availability-zone";
   $zone = file_get_contents($url);
@@ -52,7 +52,7 @@
 				<br/>
 				<br/>
 				<h2>Hellow World! for ONICA</h2>
-				<h2>Instance Name: <?php echo $local-hostname; ?></h2>
+				<h2>Instance Name: <?php echo $hostname; ?></h2>
 				<h2>EC2 Instance ID: <?php echo $instance_id; ?></h2>
 				<h2>Zone: <?php echo  $zone; ?></h2>
 <!--
